@@ -1,0 +1,31 @@
+- Add option to create an empty save file if it has been deleted and you can't log in anymore
+- What if multiple vaults access the same save file
+- Add tool tips
+- Add translation
+- Either use widget.Text or canvas.Text, currently both are scattered around in the project
+- Improve regex for file paths
+- Confirm dialog when exiting editor window and nothing was applied
+- Make settings available in every view
+- Add language button
+
+[DONE]
+- Make validator package, so that validators are the same at multiple places
+- Add unsaved changes popup window when trying to close the entire window
+- Add refresh button to vault list
+- Add padding to the copy bar
+- Add refresh button to credential list
+- Change "Add credential" window to an internal window
+- Change "Add vault" view to dialog
+- Change path validators to regex
+- Make padding responsiv
+- Add different credential types (like PIN, email, card)
+- When writing files create folders or it won't work (example credential)
+- Remove most panics and replace them with error popups
+- Make credential editor area better
+- Create custom confirm dialogs and replace them
+- Remove widget extension
+- Fix sorting of names in the tree
+- Make copy bar time global
+- Validate entries in "add credential" and "edit credential"
+- Background image of lock in the editor
+- Settings title in settings view
